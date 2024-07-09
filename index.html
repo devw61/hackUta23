@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>HackUTA 23'</title>
+        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"> -->
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="icon" href="./../images/background.gif">
+        <script src="https://kit.fontawesome.com/824cd68c8c.js" crossorigin="anonymous"></script>
+        <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-down.css' rel='stylesheet'>
+        <script src="./script.js" defer></script>
+    </head>
+
+    <body>
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="./images/hackuta_icon.jpeg" alt="LOGO" width="50" height="50" style="border-radius: 10px;">
+            </a>
+            <nav class="navbar">
+                <a href="#main_page">Home</a>
+                <a href="#project_1">The Project</a>
+            </nav>
+
+        </header>
+        
+        <!-- carousel -->
+        <section class="final_carousel">
+            <div class="wrapper">
+                <i id="left" class="fa-solid fa-arrow-left"></i>
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="img"><img src="./images/liam_edited..jpg" alt="img" draggable="false" loading="lazy"></div>
+                        <h2>Liam</h2>
+                        <span>Backend Developer</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="./images/amanda.jpg_edited..jpg" alt="img" draggable="false" loading="lazy"></div>
+                        <h2>Amanda</h2>
+                        <span>Graphic Desginer</span>
+                    </li>
+                   
+                    <li class="card">
+                        <div class="img"><img src="./images/me_edited.jpg" alt="img" draggable="false" loading="lazy"></div>
+                        <h2>Devin</h2>
+                        <span>Frontend Developer</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="./images/shawn_edited.jpg" alt="img" draggable="false" loading="lazy"></div>
+                        <h2>Shawn</h2>
+                        <span>Backend Developer</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="./images/tracy_edited.jpg" alt="img" draggable="false" loading="lazy"></div>
+                        <h2>Tracy</h2>
+                        <span>Photographer</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="./images/nick_edited.jpg" alt="img" draggable="false" loading="lazy"></div>
+                        <h2>Kevin</h2>
+                        <span>Backend Developer</span>
+                    </li>
+                    <li class="card">
+                        <div class="img"><img src="./images/nick_edited.jpg" alt="img" draggable="false" loading="lazy"></div>
+                        <h2>Nick</h2>
+                        <span>Backend Developer</span>
+                    </li>
+                </ul>
+                <i id="right" class="fa-solid fa-arrow-right"></i>
+            </div>
+        </section>
+
+        <section class="main_page" id="main_page">
+            <h1 class="main_header">HACKUTA 2023</h1>
+            <div class="background"> 
+                <h3>About the game</h3>
+                <p>In this horror mystery, a murderer roams the streets and you are the detective trying to solve the murder. By visiting
+                each building you will have the chance to find the murderer as you are given puzzles at each building that will eliminate
+                someone from your suspect list. Based on the campus of the University of Texas at Arlington, solve and capture the
+                murderer in this fun-seeking thriller. Will you be able to solve it? Find out now!</p>
+            </div>
+            <div class="div_scroll_text">
+                <!-- <h3 class="scroll_text">Scroll bellow for the project</h3> -->
+                <i class="gg-arrow-down"></i>
+            </div>
+        </section>
+        
+        <section class="projects" id="project_1">
+            <h1>Rules:</h1>
+            <a src="mymav"></a>
+            <!-- <iframe 
+            src="https://hackuta23-pdcqjgmexergrmu8c86jpq.streamlit.app/?embed=true"
+            height="550vh"
+            style="width:80%;border: none;"
+            ></iframe> -->
+            <a target="_blank" rel="noopener noreferrer" href="https://unalived-bozos.streamlit.app/?embed=true" ><img src="./images/knife_start_btn.png" width="1000"></a>
+            <h3>Let's Play!</h3>
+            <div class="outer" id="outer">
+                <div class="rules">-You will be given a list of people</div>
+                <div class="rules">-Each building you visit, you will be given a puzzle and you must solve it</div>
+                <div class="rules">-From each puzzle you will be able to eliminate a suspect</div>
+                <div class="rules">-After solving each puzzle, you will have deduced the murder</div>
+            </div>
+        </section>
+       
+    </body>
+</html>
